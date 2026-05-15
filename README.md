@@ -1,20 +1,17 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# AI Drawer
 
-# Run and deploy your AI Studio app
+一個使用Google Gemini AI的繪圖應用。
 
-This contains everything you need to run your app locally.
+## GitHub Pages
 
-View your app in AI Studio: https://ai.studio/apps/6b23468f-7ede-4cd7-b3f0-053fda6e8959
+應用已部署到GitHub Pages：https://teresayw.github.io/__AIdrawer__/
 
-## Run Locally
+## 本地運行
 
-**Prerequisites:**  Node.js
+**先決條件：** Node.js
 
-
-1. Install dependencies:
+1. 安裝依賴：
    `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
+2. 在 `.env.local` 中設定 `GEMINI_API_KEY` 為您的Gemini API金鑰
+3. 運行應用：
    `npm run dev`
